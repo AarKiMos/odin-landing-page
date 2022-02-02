@@ -107,10 +107,56 @@ header {
     font-weight: bold;
 }
 
+#awesome-four {
+    background: #FFFCCC;
+}
+
 .action {
-    min-height: 30vh;
+    min-height: 24vh;
     width: 80vw;
-    background-color: #FF7E6B;
+    background-color: #EB0F0F;
+    display: flex;
+
+    border-radius: 10px;
+}
+
+.action-left,
+.action-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-left {
+    width: 70%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: unset;
+
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.action-left span {
+    font-size: 18px;
+    font-weight: normal;
+    color: #e2e7eb;
+}
+
+.action-right {
+    width: 30%;
+}
+
+.action-right button {
+    background: none;
+    width: 120px;
+    height: 40px;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 1.1em;
+    font-weight: 700;
 
 }
 
