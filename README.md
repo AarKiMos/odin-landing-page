@@ -4,7 +4,7 @@ Project Landing Page
 
 Images Attributions
 
-1. Photo by Pexels: https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/
+1. Photo by Pixabay: https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/
 
 2. Photo by Katarzyna Modrzejewska: https://www.pexels.com/photo/beige-cat-with-gold-colored-crown-1314550/
 
