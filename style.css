@@ -76,7 +76,7 @@ header {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    margin: 10px;
+    margin: 20px;
 }
 
 .rulers {
@@ -87,10 +87,29 @@ header {
 }
 
 .ruler-card {
-    border: 2px solid black;
     min-height: 300px;
     min-width: 280px;
     flex: 0 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ruler-card img {
+    border: 5px solid #EB0F0F;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.ruler-name {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    color: #1f2937;
 }
 
 .random-quote {
