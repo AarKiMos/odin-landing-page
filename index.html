@@ -97,13 +97,14 @@
       width: 100%;
     }
 
-    .hero-order-btn {
+    .hero-order-btn,
+    .action-button {
       margin-top: 16px;
       height: 3rem;
       padding: 0px 36px;
       border-radius: 8px;
       background-color: #654424;
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       color: #fff;
       font-weight: 600;
       border: 2px solid #510D0A;
@@ -154,13 +155,87 @@
     }
 
     #quote-section {
-      padding: 64px 20px;
-      background-color: #ccc;
+      padding: 80px 20px;
+      background-color: #e5e7eb;
     }
 
-    .quote {}
+    .quote {
+      max-width: 800px;
+      margin: auto;
+      font-size: 2.5rem;
+      font-weight: 300;
+      font-style: italic;
+    }
 
-    .quote-attrib {}
+    .quote-attrib {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: right;
+    }
+
+    #action-section {
+      padding: 80px 20px;
+    }
+
+    .action-card {
+      background-color: #654424;
+      max-width: 1300px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      padding: 48px 128px;
+      border-radius: 12px;
+    }
+
+    .action-left {
+      flex: 100 1 500px;
+    }
+
+    .action-right {
+      flex: 1 1 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .action-button {
+      width: 100%;
+      margin: 0px;
+      border-color: white;
+    }
+
+    .action-title {
+      font-size: 2rem;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .action-subtitle {
+      font-size: 1rem;
+      color: #fff;
+      font-weight: 300;
+      margin-top: 2px;
+    }
+
+    footer {
+      padding: 36px 20px;
+      background-color: #4a8323;
+    }
+
+    .footer-text {
+      text-align: center;
+      font-size: 1rem;
+      color: #fff;
+    }
+
+    .footer-link {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 600;
+    }
   </style>
 
 </head>
@@ -263,11 +338,25 @@
         </div>
       </section>
       <section id="quote-section">
-        <div class="quote">Good timber does not grow with ease; the stronger the wind, the stronger the trees.</div>
+        <div class="quote">Good timber does not grow with ease.<br>The stronger the wind, the stronger the trees.</div>
         <div class="quote-attrib"> - J. Willard Marriott</div>
       </section>
+      <section id="action-section">
+        <div class="action-card">
+          <div class="action-left">
+            <div class="action-title">Subscibe and Forget</div>
+            <div class="action-subtitle">Sign up for monthly delivery, save upto 10% from third delivery.</div>
+          </div>
+          <div class="action-right">
+            <button class="action-button">Subscribe</button>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-text">Copyright © <a class="footer-link" href="https://aarkimos.github.io">Aachman Mittal</a>
+        2023</div>
+    </footer>
   </div>
 </body>
 
