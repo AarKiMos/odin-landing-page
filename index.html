@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Landing Page</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 0px;
+      margin: 0px;
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      height: 5rem;
+      background-color: #4a8323;
+
+    }
+
+    header>div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      max-width: 1440px;
+      padding: 0px 20px;
+      margin: auto;
+      font-size: 2.4rem;
+      color: #fff;
+    }
+
+
+    .links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 1.6rem;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: unset;
+    }
+
+    #hero-section {
+      background-color: #4a8323;
+
+    }
+
+    .hero-container {
+      /* height: 30rem; */
+      padding: 48px 20px 64px 20px;
+      max-width: 1440px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+
+    .hero-title {
+      flex: 1 1 500px;
+    }
+
+    .hero-title-title {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .hero-title-subtitle {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-top: 8px;
+      color: #eee;
+    }
+
+    .hero-image {
+      flex: 1 1 550px;
+      border: 4px solid #510D0A;
+    }
+
+    .hero-image>img {
+      width: 100%;
+    }
+
+    .hero-order-btn {
+      margin-top: 16px;
+      height: 3rem;
+      padding: 0px 36px;
+      border-radius: 8px;
+      background-color: #654424;
+      font-size: 1.6rem;
+      color: #fff;
+      font-weight: 600;
+      border: 2px solid #510D0A;
+    }
+
+    .product-container {
+      max-width: 1440px;
+      padding: 0px 20px;
+      margin: auto;
+    }
+
+    .product-title {
+      padding: 64px 0px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #510D0A;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 48px;
+      margin-bottom: 128px;
+    }
+
+    .product-image {
+      height: 232px;
+      width: 232px;
+      padding: 10px;
+      border: 6px solid #510D0A;
+      border-radius: 24px;
+    }
+
+    .product-image>img {
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      max-width: 232px;
+      padding: 0.75rem;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #510D0A;
+    }
+
+    #quote-section {
+      padding: 64px 20px;
+      background-color: #ccc;
+    }
+
+    .quote {}
+
+    .quote-attrib {}
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <div class="logo">
+          Woodchip Logs
+        </div>
+        <nav>
+          <ul class="links">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Quote</a></li>
+            <li><a href="#">Order</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="hero-section">
+        <div class="hero-container">
+          <div class="hero-title">
+            <div class="hero-title-title">Awesome suppliers of sustainable woods</div>
+            <div class="hero-title-subtitle">Sourced from inhouse sustainable woodlots, with extreme care of quality and
+              cut. Finest grade timber for your finest grade builds.</div>
+            <div class="hero-title-btn">
+              <button class="hero-order-btn"> Order Now </button>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/Sawmill.webp" alt="Woodchip Sawmill">
+          </div>
+        </div>
+      </section>
+      <section id="product-section">
+        <div class="product-container">
+          <div class="product-title">
+            Our Product Catalogue
+          </div>
+          <div class="products">
+
+            <div class="product-card" id="logs_0">
+              <div class="product-image"><img src="images/logs/Oak_Log.webp" alt="Oak Logs"></div>
+              <div class="product-info">Oak Logs</div>
+            </div>
+
+            <div class="product-card" id="logs_1">
+              <div class="product-image"><img src="images/logs/Spruce_Log.webp" alt="Spruce Logs"></div>
+              <div class="product-info">Spruce Logs</div>
+            </div>
+
+            <div class="product-card" id="logs_2">
+              <div class="product-image"><img src="images/logs/Birch_Log.webp" alt="Birch logs"></div>
+              <div class="product-info">Birch logs</div>
+            </div>
+
+            <div class="product-card" id="logs_3">
+              <div class="product-image"><img src="images/logs/Jungle_Log.webp" alt="Jungle Logs"></div>
+              <div class="product-info">Jungle Logs</div>
+            </div>
+
+            <div class="product-card" id="logs_4">
+              <div class="product-image"><img src="images/logs/Acacia_Log.webp" alt="Acacia Logs"></div>
+              <div class="product-info">Acacia Logs</div>
+            </div>
+
+            <div class="product-card" id="logs_5">
+              <div class="product-image"><img src="images/logs/Dark_Oak_Log.webp" alt="Dark Oak Logs"></div>
+              <div class="product-info">Dark Oak Logs</div>
+            </div>
+
+            <div class="product-card" id="logs_6">
+              <div class="product-image"><img src="images/logs/Crimson_Stem.webp" alt="Crimson Stem"></div>
+              <div class="product-info">Crimson Stem</div>
+            </div>
+
+            <div class="product-card" id="logs_7">
+              <div class="product-image"><img src="images/logs/Warped_Stem.webp" alt="Warped Stem"></div>
+              <div class="product-info">Warped Stem</div>
+            </div>
+
+            <div class="product-card" id="logs_8">
+              <div class="product-image"><img src="images/logs/Mangrove_Log.webp" alt="Mangrove Logs"></div>
+              <div class="product-info">Mangrove Logs</div>
+            </div>
+
+            <div class="product-card" id="logs_9">
+              <div class="product-image"><img src="images/logs/Block_of_Bamboo.webp" alt="Blocks of Bamboo"></div>
+              <div class="product-info">Blocks of Bamboo</div>
+            </div>
+
+            <div class="product-card" id="logs_10">
+              <div class="product-image"><img src="images/logs/Cherry_Log.webp" alt="Chery Logs"></div>
+              <div class="product-info">Chery Logs</div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section id="quote-section">
+        <div class="quote">Good timber does not grow with ease; the stronger the wind, the stronger the trees.</div>
+        <div class="quote-attrib"> - J. Willard Marriott</div>
+      </section>
+    </main>
+    <footer></footer>
+  </div>
+</body>
+
+</html>
